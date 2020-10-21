@@ -12,11 +12,10 @@ public class RealDoWhile {
 
 		input=new Scanner(System.in);
 		System.out.println("Please pay for water!");
-		money=input.nextInt();
 		
 		do {
+			money=input.nextInt(); //in do while, you money=input.nextInt(); under do{
 			
-			money=input.nextInt();
 			if(money>waterPrice) {
 				System.out.println("This is too much, you need to enter less money");
 				//money-=input.nextInt();
@@ -24,7 +23,7 @@ public class RealDoWhile {
 				System.out.println("Water is expensive, please insert more money");
 			//money=input.nextInt();
 			}
-		//money=input.nextInt();
+		money=input.nextInt();
 		}while (money!=waterPrice);
 		System.out.println("Enjoy water");
 		

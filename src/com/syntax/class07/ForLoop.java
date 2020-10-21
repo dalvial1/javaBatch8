@@ -22,9 +22,20 @@ public class ForLoop {
 		//I want to print number 10 to 0
 		
 		for(int i=10; i>=0; i-- ) {
-			System.out.print(i+" ");
+			System.out.println(i+" ");      //(i+" "); is the SAME as (i);
 		}
 		
+		System.out.println("----EXAMPLE 4---");
+		
+		for(int i=10; i<=500; i++) {
+			System.out.println(i);
+		}
+		System.out.println("----EXAMPLE 5---");
+		
+		for(int i=200; i>=1; i--) {
+			System.out.println(i);
+		}
+
 	}
 		
 	}

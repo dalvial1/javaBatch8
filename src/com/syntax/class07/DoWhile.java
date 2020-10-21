@@ -19,7 +19,7 @@ public class DoWhile {
 		int waterPrice=5;
 		
 		input=new Scanner(System.in);
-		System.out.println("Please pay for water!");
+		System.out.println("How much you got on this water?!");
 		money=input.nextInt();
 		
 		while(money!=waterPrice) {
