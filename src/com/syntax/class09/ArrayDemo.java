@@ -24,7 +24,7 @@ public class ArrayDemo {
 		num [4]=50;
 		
 		//how to access element from an array?
-		System.out.println("Accessing 3 element "+num[2]);
+		System.out.println("Accessing 3 element "+num[1]);
 		
 		System.out.println(num[1]+num[4]);
 		
